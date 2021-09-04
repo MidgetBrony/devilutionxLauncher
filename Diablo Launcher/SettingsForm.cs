@@ -177,6 +177,61 @@ namespace Diablo_Launcher
         private void ResetBTN_Click(object sender, EventArgs e)
         {
 
+            ///Reset Defaults
+
+            //Intro
+            ini["Diablo"]["Intro"] = 1;
+            ini["Hellfire"]["Intro"] = 1;
+
+            //Audio
+            ini["Audio"]["Sound Volume"] = 0;
+            ini["Audio"]["Music Volume"] = 0;
+            ini["Audio"]["Walking Sound"] = 1;
+            ini["Audio"]["Auto Equip Sound"] = 0;
+
+            //Graphics
+            ini["Graphics"]["Width"] = 640;
+            ini["Graphics"]["Height"] = 480;
+            ini["Graphics"]["Fullscreen"] = 1;
+            ini["Graphics"]["Upscale"] = 1;
+            ini["Graphics"]["Fit to Screen"] = 1;
+            ini["Graphics"]["Scaling Quality"] = 2;
+            ini["Graphics"]["Integer Scaling"] = 0;
+            ini["Graphics"]["Vertical Sync"] = 1;
+            ini["Graphics"]["Blended Transparency"] = 1;
+            ini["Graphics"]["Color Cycling"] = 1;
+            ini["Graphics"]["FPS Limiter"] = 1;
+            ini["Graphics"]["Gamma Correction"] = 100;
+
+            //Game Settings
+            ini["Game"]["Speed"] = 20;
+            ini["Game"]["Run in Town"] = 1;
+            ini["Game"]["Grab Input"] = 0;
+            ini["Game"]["Theo Quest"] = 0;
+            ini["Game"]["Cow Quest"] = 0;
+            ini["Game"]["Friendly Fire"] = 1;
+            ini["Game"]["Test Bard"] = 0;
+            ini["Game"]["Test Barbarian"] = 0;
+
+            //QOL Settings
+            ini["Game"]["Experience Bar"] = 0;
+            ini["Game"]["Enemy Health Bar"] = 0;
+            ini["Game"]["Auto Gold Pickup"] = 0;
+            ini["Game"]["Auto Equip Weapons"] = 1;
+            ini["Game"]["Auto Equip Armor"] = 0;
+            ini["Game"]["Auto Equip Helms"] = 0;
+            ini["Game"]["Auto Equip Shields"] = 0;
+            ini["Game"]["Auto Equip Jewelry"] = 0;
+            ini["Game"]["Randomize Quests"] = 1;
+            ini["Game"]["Disable Crippling Shrines"] = 0;
+            ini["Game"]["Show Monster Type"] = 0;
+            ini["Game"]["Adria Refills Mana"] = 0;
+
+            File.Delete(IniLocation);
+
+            ini.Save(IniLocation);
+
+            this.Close();
         }
     }
 }
