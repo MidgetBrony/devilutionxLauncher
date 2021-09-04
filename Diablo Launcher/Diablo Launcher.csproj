@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>DevilitonIcon.ico</ApplicationIcon>
+    <ApplicationIcon>Danger-256.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -125,6 +125,7 @@
     <None Include="Resources\1.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Danger-256.ico" />
     <Content Include="DevilitonIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
