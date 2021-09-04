@@ -5,6 +5,11 @@ A Simple Launcher I made for myself so I can launch devilutionX Easier for mysel
 ## How to Install
 Just add the EXE to the same directory as devilutionX with the mpq files.
 
+## Screenshots
+![Main Menu](https://hempton.us/ProjectX/main.png)
+![Settings 1](https://hempton.us/ProjectX/Sett1.png)
+![Settings 2](https://hempton.us/ProjectX/Sett2.png)
+
 ## Legal DevilutionX
 DevilutionX is released to the Public Domain. The documentation and functionality provided by DevilutionX may only be utilized with assets provided by the ownership of Diablo.
 
