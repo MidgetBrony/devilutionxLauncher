@@ -1,7 +1,6 @@
 # devilutionx Launcher
 ## What is it?
-A Simple Launcher I made for myself so I can launch devilutionX Easier for myself and my Wife. 
-
+A Simple Launcher I made for myself so I can launch devilutionX easier.
 ## How to Install
 Just add the EXE to the same directory as devilutionX with the mpq files.
 
